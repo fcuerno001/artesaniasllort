@@ -1,0 +1,73 @@
+
+body {
+  background-color: #e5ebe5;
+  padding-top: 50px;
+  background-size: 5%;
+  background: no-repeat url('../imagenes/pintura2.jpg')top center fixed;
+  
+  
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.wrapper {  
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 10%;
+  background-color: transparent;
+  background: rgba(255,255,255,0.7);
+  
+
+  .form-signin-heading,
+  .checkbox {
+    margin-bottom: 30px;
+  }
+
+  .checkbox {
+    font-weight: normal;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 15px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+.textlogin{
+font-family: 'Gloria Hallelujah', cursive; 
+}
+
+
+#loginForm .has-error .form-control-feedback {
+    color: #f39c12;
+}
+
+#loginForm .has-success .form-control-feedback {
+    color: #18bc9c;
+}
+

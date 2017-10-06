@@ -1,0 +1,41 @@
+body{
+    margin:250px;
+  
+    background: no-repeat url('../imagenes/arboldedios.jpg')top fixed;
+}
+
+
+.main-center {
+    margin-top: 50px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+    
+}
+
+.main-login {
+    background-color: #fff;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 21px 20px 10px rgba(0.3, 0, 0, 0.3);
+    -webkit-box-shadow: 2px 1px 2px rgba(0.3, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+.login-button{
+    margin-top: 10px;
+}
+
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
